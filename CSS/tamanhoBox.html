@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <title>Tamanho Box</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        body {
+            font-size: 45px;
+        }
+        div{
+            background-color: deepskyblue;
+            width: 100%;
+            height: 300px;
+            text-align: center;
+            border: solid 10px;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+        span{
+            font-family: 'RocknRoll One', sans-serif;
+            margin-top: 5px;
+            display: block;
+            width: 150px;
+            border: solid 5px;
+            box-sizing: content-box;
+            border-radius: 10px;
+            overflow-y: auto;
+           
+        }
+    </style>
+</head>
+<body>
+    <div>
+        O tamanho do Box é...
+    </div>
+    <span>Outra caixa</span>
+</body>
+</html>
